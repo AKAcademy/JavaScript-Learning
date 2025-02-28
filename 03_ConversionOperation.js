@@ -79,6 +79,64 @@ console.log(booleanislogged);
 // same as we can change the in string 
 
 
+//***********************************operation********************************
+
+
+let value =4
+let negvalue= -value
+console.log(negvalue)
+
+console.log(2+4);
+console.log(2-4);
+console.log(2*4);
+console.log(2/4);
+console.log(2**4);
+console.log(6%4);
+
+
+
+
+//now add the str1+str2
+
+let str1 = "Abhay"
+let str2 = " chaudhary"
+let str3 = str1 + str2
+
+console.log(str3);
+
+
+//now*******************************
+
+
+console.log("1" +2);                   // Ans==> 12
+
+console.log("1" +2+2);                 // Ans==> 122
+                                                   // If the string is in first then all
+                                                   // are treated as string 
+console.log(1 +"2");                   // Ans==> 12
+
+console.log(1 +2+"2");                 // Ans==> 32
+
+
+
+
+
+let countergame=100
+++countergame;
+console.log(countergame);
+
+
+let game=100
+game++;
+console.log(game);
+
+
+
+
+
+
+
+
 
 
 
